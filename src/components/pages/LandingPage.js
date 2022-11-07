@@ -1,13 +1,12 @@
 import { Button } from '../Button'
-import Header from '../components/Header'
+import { Header } from '../Header'
 
-const LandingPage = () => {
+const LandingPage = props => {
   return (
-    <>
+    <div>
       <Header />
-      <Button> Click me</Button>
-      <ExtendedButton>Click Me too</ExtendedButton>
-    </>
+      <Button props> Click me</Button>
+    </div>
   )
 }
 export default LandingPage

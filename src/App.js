@@ -1,3 +1,15 @@
+import './components/pages/LandingPage'
+import LandingPage from './components/pages/LandingPage'
+const App = () => {
+  return (
+    <div>
+      <h1> My First React</h1>
+      <LandingPage />
+    </div>
+  )
+}
+export default App
+
 /*import Stylesheet from './components/Stylesheet'
 class App extends Component {
   render () {
@@ -32,13 +44,3 @@ rel='noopener noreferrer'
  )
 }
 */
-
-import './Components/Header'
-const App = () => {
-  return (
-    <div>
-      <h1> My First React</h1>
-    </div>
-  )
-}
-export default App
