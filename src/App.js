@@ -1,3 +1,13 @@
+/*import Stylesheet from './components/Stylesheet'
+class App extends Component {
+  render () {
+    ;<div className='App'>
+      ¨
+      <Stylesheet primary={false} />
+    </div>
+  }
+}*/
+
 /*import logo from './logo.svg'
 import './App.css'
 function App () {
