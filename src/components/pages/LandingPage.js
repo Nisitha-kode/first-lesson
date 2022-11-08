@@ -1,11 +1,11 @@
 import { Button } from '../Button'
 import { Header } from '../Header'
 
-const LandingPage = props => {
+const LandingPage = () => {
   return (
     <div>
       <Header />
-      <Button props> Click me</Button>
+      <Button red> Click me</Button>
     </div>
   )
 }
